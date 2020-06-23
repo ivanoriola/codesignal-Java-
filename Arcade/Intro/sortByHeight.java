@@ -24,3 +24,10 @@ int[] sortByHeight(int[] a) {
             }
         }
     }
+
+    private void swap(int a[], int p1, int p2) {
+        int temp = a[p1];
+        a[p1] = a[p2];
+        a[p2] = temp;
+
+    }
